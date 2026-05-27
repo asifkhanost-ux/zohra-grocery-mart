@@ -1,0 +1,30 @@
+name: zohra_grocery_mart
+description: A modern grocery delivery app like Zomato and Blinkit.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.8.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.0
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.1.1
+  # Firebase packages temporarily removed to avoid web interop build errors
+  # firebase_core: ^2.15.0
+  # firebase_auth: ^4.7.1
+  # cloud_firestore: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
